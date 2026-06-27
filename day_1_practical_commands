@@ -1,0 +1,40 @@
+#!/bin/bash 
+
+#ip addr    learn about ip address ,default gateway, network interface and difference between IP connectivity and DNS resolution
+#ip route
+#hostname
+#hostname -I
+#ping 8.8.8.8
+#ping google.com
+
+#nslookup google.com   learn records(A,MX), name servers and DNS resolution
+#dig google.com
+#dig google.com MX
+#dig google.com NS
+
+#curl http://example.com   observes response headers, status codes and redirection
+#curl https://example.com
+#curl -I https://example.com
+
+#ss -tulnp   understand which services are listening and which port are open locally
+#netstat -tulnp
+
+#cd /   understand what each directory stores
+#ls
+#cd /etc
+#cd /var/log
+#cd /home
+#cd /tmp
+#cd /opt
+#pwd
+
+#touch file1.txt    learn find command with options
+#touch file2.txt
+#mkdir testdir
+#find . -name "*.txt"
+#find /name passwd 2>/dev/null
+
+#grep Bob users.txt    understands text processing
+#awk '{print $1}' users.txt
+#sed 's/Bob/Admin/g' users.txt
+#cut -c1-3 users.txt
