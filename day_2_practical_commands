@@ -1,0 +1,42 @@
+#!/bin/bash
+
+#touch test.txt    Understands how permission changes
+#ls -l
+
+#chmod 777 test.txt
+#ls -l
+#chmod 755 test.txt
+#ls -l
+#chmod 644 test.txt
+#ls -l
+
+#sudo useradd test     To change ownership
+#sudo chown test test.txt
+#ls -l
+
+#mkdir shared      apply SUID,SGID and sticky bit
+#chmod g+s shared
+#chmod +t shared
+#ls -l shared
+#find / -perm -u=s 2>/dev/null
+
+#sudo useradd john       user management
+#sudo passwd john
+#groups john
+#sudo usermod -aG sudo john
+#sudo userdel john
+
+
+#cat /etc/passwd       system files
+#cat /etc/group
+#sudo cat /etc/shadow
+#cut -d: -f1 /etc/passwd
+
+#top                       processes
+#ps aux
+#sleep 300
+#ps aux | grep sleep
+#kill PID
+
+#systemctl status ssh                 sevices
+#systemctl list-units --type=service
