@@ -55,3 +55,32 @@ function()
 {
     echo "hello world"
 }
+
+
+
+
+# Basic script for port scanner
+
+
+#!/bin/bash
+
+# Usage: ./scanner.sh <IP_ADDRESS> <START_PORT> <END_PORT>
+
+host=$1
+start_port=$2
+end_port=$3
+
+if [ -z "$host" ] || [ -z "$start_port" ] || [ -z "$end_port" ]; then
+    echo "Usage: $0 <IP> <start_port> <end_port>"
+    exit 1
+fi
+
+echo "Scanning $host from port $start_port to $end_port..."
+
+for ((port=start_port; port<=end_port; port++)); do
+    # Attempt connection; timeout 1 second prevents hanging on closed ports
+    timeout 1 bash -c "echo >/dev/tcp/$host/$port" 2>/dev/null
+    if [ $? -eq 0 ]; then
+        echo "Port $port is open"
+    fi
+done   
