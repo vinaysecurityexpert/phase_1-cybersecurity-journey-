@@ -1,0 +1,57 @@
+#!/bin/bash
+
+touch hello.sh
+nano hello.sh
+
+
+
+echo "hello world"
+
+
+
+chmod +x hello.sh
+./hello.sh
+
+
+
+name="Vinay"
+echo $name
+
+
+
+read -p "Enter Name: " name
+echo "Hello $name"
+
+
+
+
+
+
+age=10
+
+if [ age -eq 18 ]
+then 
+    echo " minor"
+else
+then 
+    echo " adult"
+
+
+
+
+count=1
+
+while [ $count -le 5]
+do 
+  echo $count
+  ((count++))
+done
+
+
+
+
+
+function()
+{
+    echo "hello world"
+}
