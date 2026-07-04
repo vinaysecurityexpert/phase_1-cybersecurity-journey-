@@ -1,0 +1,29 @@
+#!/bin/bash
+
+#crontab -e
+#5 * * * * echo "hello" >> ~/cron.log
+#cat ~/cron.log
+
+#tail -f /var/log/syslog
+#journalctl -xe
+#grep ssh /var/log/auth.log
+
+
+#ssh-keygen -t ed25519
+#ls ~/.ssh
+#cat ~/.ssh/id_ed25519.pub
+
+
+#sudo apt upgrade 
+#sudo apt install tree
+#tree
+#sudo apt remove tree
+
+
+#nmap localhost
+#nmap -sV localhost
+#nmap -p- localhost
+
+
+#nc -lvp 4444
+#nc localhost 4444
