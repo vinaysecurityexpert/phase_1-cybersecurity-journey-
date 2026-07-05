@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# CMD commands
+
+#ipconfig /all
+#systeminfo
+#tasklist
+#net user
+#net localgroup administrators
+#netstat -ano
+
+# powershell commands
+
+#Get-Process
+#Get-Service
+#Get-NetIPAddress
+#Get-LocalUser
+
+
+#regedit
+
+# explore
+# HKEY_LOCAL_MACHINE
+# HKEY_CURRENT_USER
