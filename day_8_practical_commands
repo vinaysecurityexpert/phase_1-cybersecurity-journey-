@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# metasploit commands
+#msfconsole
+#search
+#use
+#info
+#show options
+#set
+#run
+#exploit
+#sessions
+#background
+
+# meterpreter commands
+#sysinfo
+#getuid
+#pwd
+#ls
+#cd
+#shell
+#upload
+#download
