@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#nmap
+#nmap -sn
+#nmap -sV
+#nmap -O
+#nmap -A
+#nmap -p-
+#nmap -sU
+#nmap -sC
+#nmap --script vuln
+
+#nmap -oN
+#nmap -oX
+#nmap -oG
+#nmap -oA
