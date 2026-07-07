@@ -1,0 +1,9 @@
+#!/bin/bash
+
+#nmap -sV -sC
+#nc -v
+#telnet
+#nikto
+#gobuster
+#dnsenum
+#dnsrecon
